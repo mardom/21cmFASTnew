@@ -155,4 +155,16 @@ extern struct GlobalParams global_params = {
 
     .USE_FAST_ATOMIC = 0,
     .USE_ADIABATIC_FLUCTUATIONS = 1,
+
+    // Existing parameter initializations...
+    .SMHB_mass_relation_epsilon = 1e-3;
+    .SMHB_mass_relation_alpha = 1.0;
+    .SMHB_mass_relation_sigma = 0.3;
+    .SMHB_radiative_efficiency = 0.1;
+    .SMHB_photon_index = 1.8;
+    .SMHB_Xray_fraction = 0.05;
+    .SMHB_duty_cycle = 0.1;
+    // Initialize any additional parameters...
+
+
 };

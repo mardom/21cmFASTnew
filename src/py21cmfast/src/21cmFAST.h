@@ -66,6 +66,17 @@ struct AstroParams{
     float t_STAR;
 
     int N_RSD_STEPS;
+
+   // Existing parameters...
+    double SMHB_mass_relation_epsilon;
+    double SMHB_mass_relation_alpha;
+    double SMHB_mass_relation_sigma;
+    double SMHB_radiative_efficiency;
+    double SMHB_photon_index;
+    double SMHB_Xray_fraction;
+    double SMHB_duty_cycle;
+    // Add any additional parameters...
+
 };
 
 struct FlagOptions{
